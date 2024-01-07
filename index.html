@@ -19,12 +19,20 @@
             width: auto;
         }
 
+
         .main {
             background-image: url(https://t3.ftcdn.net/jpg/04/53/22/10/360_F_453221013_lxcLgyjNSUy4ispe5d6wLA3x9woIJqtN.jpg);
             background-position: center;
             background-size: cover;
-
             color: white;
+
+            width: 100%
+        }
+
+        @media (max-width: 600px) {
+          .welcometext {
+            font-size: 20px;
+              }
         }
 
         body {
@@ -186,7 +194,7 @@
         <div class="p-5 mb-4 bg-body-tertiary rounded-3">
             <div class="container-fluid py-5">
                 <h1 class="display-5 fw-bold">Donghoon's Taste In Music</h1>
-                <p class="col-md-8 fs-4">Welcome to my little attic! This is a cozy little space where I share my
+                <p class="welcometext">Welcome to my little attic! This is a cozy little space where I share my
                     opinions on the music I come across. Some of my favorite artists are: Lana Del Rey, boygenius,
                     Charli XCX, and Channel Tres. Any music recs by you guys are welcomed--check out the 'Suggestions'
                     tab!</p>
